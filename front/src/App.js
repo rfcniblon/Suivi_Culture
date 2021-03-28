@@ -3,7 +3,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import './components/Scss/style.css';
 import Login from './components/Login/Login';
 import AdminPage from './components/Admin/Admi';
-import Admin from './components/Admin/Admin';
 import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 import Register from './components/Register/Register';
 
@@ -33,9 +32,8 @@ class App extends React.Component {
         {redirectToAdminPage && <Redirect to="/admin" />}
         <Switch>
           <Route exact path="/register" component={Register} />
-          <Route exact path="/" component={Login} /> 
           <Route path="/forgotpassword" component={ForgotPassword}/>
-          <Route exact path="/login" component={() => <Login updateFunction={this.updateLogin} />} />
+          <Route exact path="/" component={() => <Login updateFunction={this.updateLogin} />} />
           {isLogged ? <Route exact path="/admin" component={AdminPage} /> : <Redirect to="/" />}  
  
         </Switch>
