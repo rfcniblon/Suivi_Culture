@@ -5,9 +5,19 @@
 //     display: none !important;
 //   }
 
+.bgimage{
+  height: 100vh;
+  background:url(../Login/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .project-tab {
   padding: 2%;
-  margin-top: 0%;
+  height: 100vh;
+  padding-top: 80vh;
+  transform: translateY(-50%);
 }
 
 .project-tab #tabs .nav-tabs .nav-item.show .nav-link,
