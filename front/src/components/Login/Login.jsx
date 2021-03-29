@@ -46,7 +46,7 @@ class Login extends React.Component {
         }
       })
       .then((data) => {
-        const client = "client";
+        // const client = "client";
         localStorage.setItem("token", data.token);
         localStorage.setItem("user", username);
         this.props.updateFunction();

@@ -41,7 +41,7 @@ class Register extends React.Component {
 
   checkPass = () => {
 
-if(this.state.password == this.state.confirm_mdp)
+if(this.state.password === this.state.confirm_mdp)
 {
 console.log("ok")
 // message password ok
