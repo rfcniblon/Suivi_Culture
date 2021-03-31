@@ -60,7 +60,7 @@ class Login extends React.Component {
     const { username, password } = this.state;
     return (
       <Fragment>
-      <div className="container-fluid">
+      <div className="container-fluid bgimage">
     <section id="tabs" className="project-tab">
       <div className="container">
         <div className="row">
