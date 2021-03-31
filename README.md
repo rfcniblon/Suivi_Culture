@@ -1,7 +1,5 @@
 # Suivi de Potager
 
-Projet Open-Source !
-
 # doc en cours ...
 
 Suivi de potager à été créer pour un besoin de suivre d'année en année mes cultures en potager, l'interet est de pouvoir comparer par rapport aux années precente, avoir les infos et les commentaires renseigner.
