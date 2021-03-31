@@ -29,5 +29,5 @@ le fichier .env_exemple est à renommé en .env puis vous l'edité pour mettre v
 ...
 
 ## Mise en route
-démarrer le serveur back avec  ### nodemon server ###
-démarrer le serveur front avec ### npm start ### , une page web s'ouvrira avec le site web ###
+### démarrer le serveur back avec nodemon server ###
+### démarrer le serveur front avec npm start , une page web s'ouvrira avec le site web ###
