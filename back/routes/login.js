@@ -14,7 +14,9 @@
      if (error || results.length === 0) {
        res.status(501).send("couldn't post users " + error);
      } else {
-       jwt.sign({ user }, jwtsecret, (err, token) => {
+       jwt.sign({ user }, jwtsecret,  {
+          expiresIn: '1h',  // expire in 1 hour
+        },(err, token) => {
          if (err) {
            res.status(501).send('JWT error');
          } else {
