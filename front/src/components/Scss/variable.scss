@@ -9,7 +9,25 @@
 //-- Radius
 
    //Couleurs
+// $color_black: black;
+// $color_green:#9027b9;
+$color_green:#58b927;
+$color_black: white;
 
-$color_green:#499722;
+
+$color_green_foncer:#2d720b;
+$color_blue:blue;
+$color_blue_foncer:rgb(13, 13, 153);
+$color_red:red;
+$color_red_foncer:rgb(156, 3, 3);
 $color_white:#EEEEEE;
-$color_grey: grey;
+$color_grey: rgb(206, 195, 195);
+
+$background_color_navbar: $color_green;
+$color_text_navbar: $color_white;
+
+$background_color_section: $color_grey;
+$color_border: $background_color_navbar;
+$color_text_deco:$background_color_navbar;
+$color_label_section:$color_black;
+$radius: 15px;
