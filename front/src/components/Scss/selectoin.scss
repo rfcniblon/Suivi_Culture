@@ -1,0 +1,90 @@
+@import 'variable.scss';
+
+.selection{
+    margin-top: 15px;
+    margin-left: 0;
+    justify-content: space-evenly;
+    text-align: center;
+ .div1{
+    border-radius: $radius;
+    margin-left: 15px;
+    background-color: $background_color_section;
+    border: 2px solid;
+    border-color: $color_border;
+    height: 170px;
+    width: 20vw;
+    margin-bottom: 20px;
+    color: $color_label_section;
+}
+ .div2{
+    border-radius: $radius;
+    margin-left: 15px;
+    background-color: $background_color_section;
+    border: 2px solid;
+    border-color: $color_border;
+    color: $color_label_section;
+    height: 170px;
+    width: 20vw;
+}
+.div3{
+    border-radius: $radius;
+    margin-left: 15px;
+    background-color: $background_color_section;
+    border: 2px solid;
+    border-color: $color_border;
+    color: $color_label_section;
+    height: 170px;
+    width: 20vw;
+
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -15px;
+
+    i{
+         margin-top: 15px;
+    }
+    .i_color_add{
+         color: green;
+         font-size: 40px;
+    }
+    .i_color_add:hover{
+         color: $color_green_foncer;
+     }
+     .i_color_del{
+        font-size: 40px;
+        color: $color_red;
+    }
+    .i_color_del:hover{
+        color: $color_red_foncer;
+
+    }
+    .i_color_put{
+        font-size: 40px;
+        color: $color_blue;
+        }
+
+    .i_color_put:hover{
+        color: $color_blue_foncer; 
+    } 
+}
+h2{
+    text-decoration: underline $color_text_deco;
+    padding-top: 10px;
+    color:$color_label_section;
+}
+.i_placement{
+        padding-top:5px ;
+    font-size: 30px ;
+    }
+}
+.justi_logo{
+    justify-content: center !important;
+}
+.esp5{
+    margin-left: 15px;
+}
+
+
+
