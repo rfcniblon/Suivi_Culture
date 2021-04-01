@@ -1,5 +1,9 @@
  @import "variable.scss";
 
+.background{
+     background-color: $background_color_navbar;
+ }
+
 .titre_logo{
     color: white !important;
    }
