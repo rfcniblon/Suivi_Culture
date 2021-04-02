@@ -1,4 +1,4 @@
-CREATE DATABASE suivi_culture;
+CREATE DATABASE suivi_de_potager;
 
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
