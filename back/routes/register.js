@@ -17,13 +17,12 @@ router.post("/",  (req, res) => {
   const users = req.body;
   const resetPasswordExpires = new Date(Date.now());
   connection.query(
-    "INSERT INTO users (name, email, password, resetPasswordToken, resetPasswordExpires, roles) VALUES (?, ?, ?, ?, ?, ?)",
+    "INSERT INTO users (name, email, password, resetPasswordToken, resetPasswordExpires) VALUES (?, ?, ?, ?, ?)",
     [users.name, 
       users.email,
       bcrypt.hashSync(users.password, salt), 
        users.resetPasswordToken,
        resetPasswordExpires,
-       users.roles,
       ],
     (error, results, fields) => {
       if (error) {
